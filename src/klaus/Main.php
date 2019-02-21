@@ -83,7 +83,7 @@ class Main extends PluginBase implements Listener {
 					case "exec(" :
 					case "passthru(" :
 					case "system(" :
-						$sender->sendMessage ( $harm . ") Method found. You can run external programs or commands from the plug-in." );
+						$sender->sendMessage ( $harm . ") Method found. You can run external programs or commands from the plugin." );
 						break;
 					case "setop(" :
 						$sender->sendMessage ( "setOp() Method found. Plugins can access the OP system." );
