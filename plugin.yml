@@ -1,0 +1,13 @@
+name: AntiCode
+author: ArchonKlaus
+version: 1.0.0-ALPHA
+api: [3.0.0]
+main: klaus\Main
+
+commands:
+ inspect:
+  permission: pvc.inspect
+  description: Inspect the plugin
+permissions:
+ pvc.inspect:
+  default: OP
